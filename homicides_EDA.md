@@ -1,8 +1,6 @@
 Exploring Homicides
 ================
 
-===========================================================================================================
-
 This report explores a dataset containing demographic information and other details of victims and perpetrators in about 640,000 homicides in the United States from 1980-2014. Our dataset consists of 29 variables, with nearly 640,000 observations.
 
 Univariate Plots Section
@@ -2224,7 +2222,7 @@ Reflection
 
 The homicides dataset contains information on almost 640,000 homicides in the United States from 1980 - 2014. I started by understanding some of the individual variables in the data set and further explored them in relation to one another to gather insights of what trends might be there. Later on, I was able to observe trends in pockets of the data and created a linear model to predict victim age.
 
-The linear model didn't quite provide a clear trend or ability to predict victim age. I think this had something to do with needing to section of the data into subsets and then perform these models. For example, as we saw in the third plot of our final section, there are clusters/pockets of data in which homicides of victims within a certain age range, age difference between them and perpetrator, and the relation they have with each other.
+The linear model didn't quite provide a clear trend or ability to predict victim age. I think this had something to do with needing to section off the data into subsets and then perform these models. For example, as we saw in the third plot of our final section, there are clusters/pockets of data in which homicides of victims within a certain age range, age difference between them and perpetrator, and the relation they have with each other.
 
 There were limitations in the data on account of unsolved murders. It prevented us from gaining information about the perpetrators in those cases. It also seemed that for unsolved homicides, there were erroneous or random entries in the ages of the perpetrator and even the victim. We removed the data where the ages were erroneous to prevent it from getting in the way of our analyses.
 
